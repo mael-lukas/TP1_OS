@@ -3,4 +3,4 @@ project(TP1_systemes C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(TP1_systemes question2.c)
+add_executable(TP1_systemes question3.c)

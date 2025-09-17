@@ -49,8 +49,8 @@ cmake_ninja_workdir = /home/administrateur/CLionProjects/TP1_systemes/cmake-buil
 
 build cmake_object_order_depends_target_TP1_systemes: phony || .
 
-build CMakeFiles/TP1_systemes.dir/question2.c.o: C_COMPILER__TP1_systemes_unscanned_Debug /home/administrateur/CLionProjects/TP1_systemes/question2.c || cmake_object_order_depends_target_TP1_systemes
-  DEP_FILE = CMakeFiles/TP1_systemes.dir/question2.c.o.d
+build CMakeFiles/TP1_systemes.dir/question3.c.o: C_COMPILER__TP1_systemes_unscanned_Debug /home/administrateur/CLionProjects/TP1_systemes/question3.c || cmake_object_order_depends_target_TP1_systemes
+  DEP_FILE = CMakeFiles/TP1_systemes.dir/question3.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/TP1_systemes.dir
   OBJECT_FILE_DIR = CMakeFiles/TP1_systemes.dir
@@ -63,7 +63,7 @@ build CMakeFiles/TP1_systemes.dir/question2.c.o: C_COMPILER__TP1_systemes_unscan
 #############################################
 # Link the executable TP1_systemes
 
-build TP1_systemes: C_EXECUTABLE_LINKER__TP1_systemes_Debug CMakeFiles/TP1_systemes.dir/question2.c.o
+build TP1_systemes: C_EXECUTABLE_LINKER__TP1_systemes_Debug CMakeFiles/TP1_systemes.dir/question3.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/TP1_systemes.dir
   POST_BUILD = :
