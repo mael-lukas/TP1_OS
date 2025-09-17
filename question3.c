@@ -72,6 +72,14 @@ void addToLast(INT_LINKED_LIST *list){
     list->next = new;
 }
 
+void addToFirst(INT_LINKED_LIST *list){
+	if(list == NULL){
+		perror("Error: list is NULL\n");
+		exit(EXIT_FAILURE);
+	}
+
+}
+
 int main(void) {
   	struct integer *following = NULL;
     for (int i = N-1; i >= 0; i--){
